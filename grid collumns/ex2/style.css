@@ -1,0 +1,44 @@
+.grid{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr ; 
+  justify-content: start;
+  place-items: center end;
+}
+
+
+
+ 
+
+/* estilos gerais */
+body{
+  font-family: arial;
+  margin: 40px;
+}
+h1,p{
+  margin: 0px;
+}
+h1{
+  font-size: 48px;
+  line-height: 1;
+}
+span{
+  background-color: antiquewhite;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+span,p{
+  font-size: 20px;
+}
+img{
+  max-width: 100%;
+}
+.apoiar{
+  background: #98a058;
+  color: #1e2011;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 20px;
+}
+ 
