@@ -1,0 +1,12 @@
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+justify-content: center;}
+
+h2{
+  background-color: bisque;
+  border: 1px solid burlywood;
+  margin: 0px;
+  padding: 20px;
+}
