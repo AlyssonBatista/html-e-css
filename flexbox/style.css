@@ -2,11 +2,34 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-justify-content: center;}
+justify-content: center;
+margin: 20px;}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
+  margin: 20px;
+}
+.vs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  text-align: center;
+}
 
 h2{
   background-color: bisque;
   border: 1px solid burlywood;
   margin: 0px;
   padding: 20px;
+  flex: 1;
+}
+
+p{
+  font-size: 60px;
+  padding: 10px;
+  background-color: sandybrown ;
+  border: 1px solid saddlebrown;
+  border-radius: 4px;
+  grid-column: 2/3;
 }
