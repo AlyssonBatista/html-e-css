@@ -1,0 +1,25 @@
+a{
+ background-color: blueviolet;
+ text-decoration: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ display: inline-block;
+ font-size: 3rem;
+}
+
+a:hover{
+  background-image: linear-gradient(to right,rgb(146, 107, 146),blueviolet,rgb(146, 107, 146));
+  color: violet;
+}
+
+a:focus{
+  background: red;
+  color: yellow;
+  border-color: springgreen;
+}
+
+a:active{
+  background-color: black;
+  color: aliceblue;
+}
