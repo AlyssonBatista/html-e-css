@@ -1,0 +1,18 @@
+.lista-1 li:first-child{
+ background-color: violet;
+}
+.lista-2 li:last-child{
+  background-color: yellow;
+}
+.lista-1 li:nth-child(5){
+  background-color: darkcyan;
+}
+.lista-2 li:nth-child(1){
+  background-color: tomato;
+}
+.lista-1 li:nth-child(odd){
+  padding: 15px 32px;
+}
+.lista-2 li:nth-child(even){
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
