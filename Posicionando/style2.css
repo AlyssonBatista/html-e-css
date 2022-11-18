@@ -1,0 +1,25 @@
+.logo{
+  display: block;
+  margin: 0 auto;
+  width: 25rem;
+  padding: 6.25rem;
+}
+.menu {
+display: flex;
+gap: 2rem;
+justify-content: center;
+margin: 3rem;
+}
+
+.menu a{
+  text-decoration: none;
+  font-size: 3rem ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(67, 66, 66);
+}
+
+.conteudo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem ;
+}
